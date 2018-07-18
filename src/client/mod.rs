@@ -102,6 +102,7 @@ pub mod connect;
 pub(crate) mod dispatch;
 #[cfg(feature = "runtime")] mod dns;
 mod pool;
+mod pool2;
 #[cfg(test)]
 mod tests;
 
